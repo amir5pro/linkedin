@@ -1,0 +1,20 @@
+
+
+
+.iUplaod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.iUplaod_child{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding:7px 10px;
+}
+.circle_pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 20px ;
+}

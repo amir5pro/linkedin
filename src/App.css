@@ -1,0 +1,21 @@
+.toast{
+  border-radius: 15px !important;
+ 
+}
+@media (max-width: 400px) {
+    .toast {
+      margin-top: 20px !important;
+      margin-left: 20px !important;
+    width: 200px !important;
+    border-radius: 15px !important;
+    }
+  }
+@media (max-width: 490px) {
+    .toast {
+      margin-top: 20px !important;
+      margin-left: 20px !important;
+    width: 250px !important;
+    border-radius: 15px !important;
+    }
+  }
+ 

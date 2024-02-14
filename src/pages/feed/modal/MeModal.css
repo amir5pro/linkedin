@@ -1,0 +1,108 @@
+
+
+.profile_info_top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5px;
+    border-bottom: 1px solid lightgray;
+}
+.p_top_main{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.p_top_main_avatar{
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: contain;
+    color: var(--primary) !important;
+ 
+}
+.p_top_main_word{
+    display: flex;
+    flex-direction: column;
+     align-items: flex-start;
+    line-height: 17px;
+}
+.p_top_main_word>h3{
+    font-size: 15px;
+  
+}
+.p_top_main_word>p{
+    font-size: 13px;
+    color: #5e5e5e;
+}
+.pro_button{
+    text-align: center;
+   width: 60%;
+   margin: 15px auto;
+   padding: 3px ;
+   border: 2px solid var(--primary);
+   border-radius: 15px;
+   background-color: var(--secondary);
+   color: var(--primary);
+}
+.pro_button:hover{
+    background-color: var(--primary);
+    color: var(--secondary);
+    cursor: pointer;
+}
+.profile_info_middle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    border-bottom: 1px solid lightgray;
+
+}
+.profile_info_middle>h3{
+    margin-top: 7px;
+    font-size: 17px;
+}
+.profile_info_middle>p{
+    font-size: 14px;
+}
+.profile_info_middle>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.profile_premium{
+    display: flex;
+}
+.profile_gold{
+    color: gold;
+}
+.profile_premium>p{
+    font-size: 14px;
+    color: #191919;
+}
+.profile_premium>p:hover{
+    text-decoration: underline;
+    color: var(--primary);
+    cursor: pointer;
+}
+.pro_lang{
+    margin-bottom: 15px;
+}
+.profile_info_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    border-bottom: 1px solid lightgray;
+}
+.profile_info_bottom>h3{
+    margin-top: 7px;
+    font-size: 17px;
+}
+.profile_info_bottom>p{
+    font-size: 14px;
+}
+.profile_info_bottom>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.profile_job{
+    margin-bottom: 15px;
+}
